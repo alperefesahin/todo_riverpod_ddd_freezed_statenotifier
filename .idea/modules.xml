@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/todo_list_riverpod.iml" filepath="$PROJECT_DIR$/todo_list_riverpod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/todo_list_riverpod_android.iml" filepath="$PROJECT_DIR$/android/todo_list_riverpod_android.iml" />
+    </modules>
+  </component>
+</project>
