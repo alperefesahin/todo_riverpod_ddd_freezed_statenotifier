@@ -1,6 +1,6 @@
 # todo_riverpod_ddd_freezed
 
-Simple app to cover Riverpod with Freezed + DDD Architecture.
+Simple app to cover **Riverpod with Freezed + DDD Architecture.**
 
 Medium article is soon...
 
