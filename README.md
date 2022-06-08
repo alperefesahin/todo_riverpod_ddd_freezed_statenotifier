@@ -1,6 +1,6 @@
-# todo_riverpod_ddd_freezed
+# todo_riverpod_ddd_freezed_statenotifier
 
-Simple app to cover **Riverpod with Freezed + DDD Architecture.**
+Simple app to cover **Riverpod with Freezed + DDD Architecture + StateNotifier.**
 
 Medium article is soon...
 
