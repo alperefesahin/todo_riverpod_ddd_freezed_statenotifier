@@ -1,16 +1,8 @@
-# todo_list_riverpod
+# todo_riverpod_ddd_freezed
 
-A new Flutter project.
+Simple app to cover Riverpod with Freezed + DDD Architecture.
 
-## Getting Started
+Medium article is soon...
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Gif
+![todo_gif](https://user-images.githubusercontent.com/67283777/172566603-caeebc05-ecce-45f4-820d-bc7850bb0014.gif)
