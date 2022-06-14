@@ -5,17 +5,15 @@ import 'package:todo_list_riverpod/application/todo/todo_event.dart';
 import 'package:todo_list_riverpod/presentation/pages/home_page/constants/texts.dart';
 import 'package:todo_list_riverpod/providers/todo_provider.dart';
 
-class TodosActionPart extends StatelessWidget {
+class TodosActionPart extends ConsumerWidget {
   TodosActionPart({
     Key? key,
-    required this.ref,
   }) : super(key: key);
 
   final textfieldController = TextEditingController();
-  final WidgetRef ref;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [

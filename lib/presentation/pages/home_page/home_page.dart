@@ -11,8 +11,9 @@ class HomePage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final todoList = ref.watch(todoNotifierProvider.select((todoState) => todoState.todoList));
+    final todoList = ref.watch(todoNotifierProvider.select((state) => state.todoList));
     final reversedTodoList = List<TodoModel>.from(todoList.reversed);
+
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.only(top: 100),
@@ -30,7 +31,7 @@ class HomePage extends ConsumerWidget {
                   textAlign: TextAlign.center,
                 ),
               ),
-              TodosActionPart(ref: ref),
+              TodosActionPart(),
               TodosPart(todoList: reversedTodoList),
             ],
           ),
