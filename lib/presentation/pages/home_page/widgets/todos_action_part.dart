@@ -31,10 +31,10 @@ class TodosActionPart extends ConsumerWidget {
         ),
         IconButton(
           onPressed: () {
-            ref.read(todoNotifierProvider.notifier).mapEventsToStates(
+            ref.read(todoNotifierProvider.notifier).mapEventsToState(
                   TodoTitleChanged(text: textfieldController.value.text),
                 );
-            ref.read(todoNotifierProvider.notifier).mapEventsToStates(
+            ref.read(todoNotifierProvider.notifier).mapEventsToState(
                   const AddTodo(),
                 );
             textfieldController.clear();

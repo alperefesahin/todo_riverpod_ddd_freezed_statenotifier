@@ -9,8 +9,8 @@ class TodoNotifier extends StateNotifier<TodoState> {
 
   final uuid = const Uuid();
 
-  mapEventsToStates(TodoEvent event) async {
-    return event.map(
+  void mapEventsToState(TodoEvent event) async {
+    event.map(
       todoTitleChanged: (todoTitleChangedEvent) {
         state = state.copyWith(
           todo: TodoModel(

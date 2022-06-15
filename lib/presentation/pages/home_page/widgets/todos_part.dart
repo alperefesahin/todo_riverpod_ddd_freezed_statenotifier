@@ -54,7 +54,7 @@ class TodosPart extends ConsumerWidget {
                               fillColor: MaterialStateProperty.all(whiteColor),
                               value: todoList[index].isTodoCompleted,
                               onChanged: (isTodoCompleted) {
-                                ref.read(todoNotifierProvider.notifier).mapEventsToStates(
+                                ref.read(todoNotifierProvider.notifier).mapEventsToState(
                                       TodoStatusChanged(todoId: todoList[index].id),
                                     );
                               },
@@ -67,7 +67,7 @@ class TodosPart extends ConsumerWidget {
                         ),
                         IconButton(
                           onPressed: () {
-                            ref.read(todoNotifierProvider.notifier).mapEventsToStates(
+                            ref.read(todoNotifierProvider.notifier).mapEventsToState(
                                   RemoveTodo(
                                     todoId: todoList[index].id,
                                   ),
